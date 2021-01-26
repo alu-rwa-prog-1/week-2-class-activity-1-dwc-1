@@ -83,6 +83,32 @@ class MyApp extends StatelessWidget {
       ),
     );
 
+    Widget cardOne = Card(
+      child: Container(
+        height: 400,
+        width: 900,
+        child: Text("Card One", style: TextStyle(color: Colors.white),),
+        decoration: BoxDecoration(
+          color: Colors.green
+        ),
+      )
+    );
+
+    Widget dividere = Divider(
+
+    );
+
+    Widget cardTwo = Card(
+        child: Container(
+          height: 400,
+          width: 900,
+          child: Text("Card One", style: TextStyle(color: Colors.white),),
+          decoration: BoxDecoration(
+              color: Colors.yellow
+          ),
+        )
+    );
+
     Widget textSection = Container(
         padding: const EdgeInsets.all(32),
         child: Text(
